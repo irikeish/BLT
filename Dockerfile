@@ -9,6 +9,8 @@ RUN apt-get update \
 WORKDIR /usr/src/app
 
 COPY requirements.txt .
+COPY Pipfile .
+COPY Pipfile.lock .
 
 RUN pip install -r requirements.txt
 
