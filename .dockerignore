@@ -1,0 +1,8 @@
+vagrant
+Vagrantfile
+media
+.env
+.app.env
+db.sqlite3
+docker-compose.*
+README.md
